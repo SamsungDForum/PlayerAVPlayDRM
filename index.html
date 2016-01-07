@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8" />
+<meta name="viewport"
+      content="width=1920" />
+<meta name="description"
+	content="Example video player application using Tizen webapis.avplay" />
+
+<title>Tizen Video Example App</title>
+
+
+<script type='text/javascript' src='$WEBAPIS/webapis/webapis.js'></script>
+
+<link rel="stylesheet" type="text/css" href="style.css" />
+<script src="videoPlayer.js"></script>
+<script src="main.js"></script>
+</head>
+
+<body>
+    <h1>Tizen Video DRM App</h1>
+    <h2>Video player based on Tizen webapis.avplay</h2>
+
+    <div class="left">
+        <h2>Available buttons/actions:</h2>
+        <div>
+            1 - Toggle UHD content playback - use before starting playback and only for 4K content<br>
+            2 - display track info - while playback active<br>
+            3 - display stream properties - while playback active
+        </div>
+
+        <ul class='drms'></ul>
+
+        <object id="av-player" type="application/avplayer"></object>
+        <div class="video-controls">
+            <div class="play">PLAY</div>
+            <div class="stop">STOP</div>
+            <div class="pause">PAUSE</div>
+            <div class="ff">FF</div>
+            <div class="rew">REW</div>
+            <div class="fullscreen">TOGGLE FULLSCREEN MODE</div>
+        </div>
+
+        <fieldset id="logsFieldset">
+            <legend>Logs</legend>
+            <div class="logs" id="logs"></div>
+        </fieldset>
+    </div>
+
+    <div class="right">
+        <h2>Info</h2>
+
+        <p>This application demonstrates the use of AVPlay based player with DRM</p>
+
+        <p>The application downloads video content from <code>http://playready.directtaps.net</code> and <code>http://commondatastorage.googleapis.com</code> - it will not work if these domains are not accessible<br>
+
+            You can change the source for video content by modifying contents of <code>drms</code> variable in <code>main.js</code> file</cide></p>
+
+        <p></p>
+
+        <h2>Operation</h2>
+
+        <p>Use mouse or remote to operate on video player.<br />
+            Use UP/DOWN arrows to select DRM system<br/>
+            Available keys: PLAY, PAUSE, FW, RW, STOP, ENTER (Fullscreen), RETURN, PLAY/PAUSE (Smart Remote 2015)</p>
+
+        <fieldset>
+            <legend>Video info</legend>
+            <div class="logs" id="info"></div>
+        </fieldset>
+
+    </div>
+
+
+
+</body>
+</html>
