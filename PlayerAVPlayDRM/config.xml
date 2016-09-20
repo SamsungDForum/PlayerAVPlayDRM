@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<widget xmlns:tizen="http://tizen.org/ns/widgets" xmlns="http://www.w3.org/ns/widgets" id="http://yourdomain/PlayerAVplayDRM" version="0.2.1" viewmodes="maximized">
+<widget xmlns="http://www.w3.org/ns/widgets" xmlns:tizen="http://tizen.org/ns/widgets" id="http://yourdomain/PlayerAVPlayDRM" version="0.2.1" viewmodes="maximized">
     <access origin="*" subdomains="true"></access>
-    <tizen:application id="V5xPhFrB8Y.PlayerAVplayDRM" package="V5xPhFrB8Y" required_version="2.3"/>
+    <tizen:application id="4EHHvUq5IB.PlayerAVPlayDRM" package="4EHHvUq5IB" required_version="2.3"/>
     <content src="index.html"/>
     <feature name="http://tizen.org/feature/screen.size.normal.1080.1920"/>
     <icon src="icon.png"/>
     <tizen:metadata key="http://samsung.com/tv/metadata/prelaunch.support" value="true"/>
-    <name>PlayerAVplayDRM</name>
+    <name>PlayerAVPlayDRM</name>
     <tizen:privilege name="http://tizen.org/privilege/application.launch"/>
     <tizen:privilege name="http://developer.samsung.com/privilege/drminfo"/>
     <tizen:privilege name="http://developer.samsung.com/privilege/drmplay"/>
