@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<widget xmlns="http://www.w3.org/ns/widgets" xmlns:tizen="http://tizen.org/ns/widgets" id="http://yourdomain/PlayerAVPlayDRM" version="0.2.1" viewmodes="maximized">
+<widget xmlns:tizen="http://tizen.org/ns/widgets" xmlns="http://www.w3.org/ns/widgets" id="http://yourdomain/PlayerAVPlayDRM" version="0.2.1" viewmodes="maximized">
     <access origin="*" subdomains="true"></access>
-    <tizen:application id="4EHHvUq5IB.PlayerAVPlayDRM" package="4EHHvUq5IB" required_version="2.3"/>
+    <tizen:application id="3HYANqBDJU.PlayerAVPlayDRM" package="3HYANqBDJU" required_version="2.3"/>
     <content src="index.html"/>
     <feature name="http://tizen.org/feature/screen.size.normal.1080.1920"/>
     <icon src="icon.png"/>
