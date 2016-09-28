@@ -5,7 +5,6 @@
     <content src="index.html"/>
     <feature name="http://tizen.org/feature/screen.size.all"/>
     <icon src="icon.png"/>
-    <tizen:metadata key="http://samsung.com/tv/metadata/prelaunch.support" value="true"/>
     <name>PlayerAVPlayDRM</name>
     <tizen:privilege name="http://developer.samsung.com/privilege/drminfo"/>
     <tizen:privilege name="http://developer.samsung.com/privilege/drmplay"/>
